@@ -10,7 +10,7 @@ import java.util.List;
 
 @Component
 public class AuthorizationService {
-    UserRepository userRepository;
+    private final UserRepository userRepository;
 
     public AuthorizationService(UserRepository repository) {
         userRepository = repository;
