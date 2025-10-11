@@ -1,0 +1,8 @@
+version: '0.0.0'
+
+services:
+  homework_49:
+    build: ./
+    image: 'homework_49'
+    ports:
+      - '8080:8080'
